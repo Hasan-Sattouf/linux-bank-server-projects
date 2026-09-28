@@ -1,0 +1,129 @@
+[2026-08-20 08:00:00] [INFO] [SESSION_1001] [Hasan] [192.168.1.10] [AUTH] - Successful login
+[2026-08-20 08:00:00] [INFO] [SESSION_1006] [Teller01] [172.16.0.20] [AUTH] - Successful login
+[2026-08-20 08:30:00] [INFO] [SESSION_1001] [Hasan] [192.168.1.10] [AUTH] - Logout
+[2026-08-20 08:30:00] [INFO] [SESSION_1006] [Teller01] [172.16.0.20] [AUTH] - Logout
+[2026-08-20 09:00:00] [INFO] [SESSION_1002] [Sara] [192.168.1.20] [AUTH] - Successful login
+[2026-08-20 09:00:00] [INFO] [SESSION_1007] [Admin] [172.16.0.30] [AUTH] - Successful login
+[2026-08-20 09:01:00] [ERROR] [SESSION_1101] [unknown] [203.0.113.55] [AUTH] - Failed login attempt for user root
+[2026-08-20 09:02:00] [ERROR] [SESSION_1102] [unknown] [203.0.113.55] [AUTH] - Failed login attempt for user admin
+[2026-08-20 09:03:00] [ERROR] [SESSION_1103] [unknown] [203.0.113.55] [AUTH] - Failed login attempt for user test
+[2026-08-20 09:04:00] [ERROR] [SESSION_1104] [unknown] [203.0.113.55] [AUTH] - Failed login attempt for user root
+[2026-08-20 09:05:00] [ERROR] [SESSION_1105] [unknown] [203.0.113.55] [AUTH] - Failed login attempt for user admin
+[2026-08-20 09:06:00] [ERROR] [SESSION_1106] [unknown] [203.0.113.55] [AUTH] - Failed login attempt for user guest
+[2026-08-20 09:07:00] [ERROR] [SESSION_1107] [unknown] [203.0.113.55] [AUTH] - Failed login attempt for user root
+[2026-08-20 09:08:00] [ERROR] [SESSION_1108] [unknown] [10.0.0.15] [AUTH] - Failed login attempt for user root
+[2026-08-20 09:09:00] [ERROR] [SESSION_1109] [unknown] [10.0.0.15] [AUTH] - Failed login attempt for user admin
+[2026-08-20 09:10:00] [ERROR] [SESSION_1110] [unknown] [10.0.0.15] [AUTH] - Failed login attempt for user test
+[2026-08-20 09:11:00] [ERROR] [SESSION_1111] [unknown] [10.0.0.15] [AUTH] - Failed login attempt for user guest
+[2026-08-20 09:12:00] [ERROR] [SESSION_1112] [unknown] [10.0.0.15] [AUTH] - Failed login attempt for user root
+[2026-08-20 09:13:00] [ERROR] [SESSION_1113] [unknown] [172.16.0.20] [AUTH] - Failed login attempt for user admin
+[2026-08-20 09:14:00] [ERROR] [SESSION_1114] [unknown] [172.16.0.20] [AUTH] - Failed login attempt for user admin
+[2026-08-20 09:15:00] [ERROR] [SESSION_1115] [unknown] [172.16.0.20] [AUTH] - Failed login attempt for user test
+[2026-08-20 09:16:00] [ERROR] [SESSION_1116] [unknown] [172.16.0.20] [AUTH] - Failed login attempt for user root
+[2026-08-20 09:17:00] [ERROR] [SESSION_1117] [unknown] [198.51.100.40] [AUTH] - Failed login attempt for user root
+[2026-08-20 09:18:00] [ERROR] [SESSION_1118] [unknown] [198.51.100.40] [AUTH] - Failed login attempt for user admin
+[2026-08-20 09:19:00] [ERROR] [SESSION_1119] [unknown] [198.51.100.40] [AUTH] - Failed login attempt for user test
+[2026-08-20 09:20:00] [ERROR] [SESSION_1120] [unknown] [192.168.1.30] [AUTH] - Failed login attempt for user guest
+[2026-08-20 09:21:00] [ERROR] [SESSION_1121] [unknown] [198.51.100.41] [AUTH] - Failed login attempt for user root
+[2026-08-20 09:30:00] [INFO] [SESSION_1002] [Sara] [192.168.1.20] [AUTH] - Logout
+[2026-08-20 09:30:00] [INFO] [SESSION_1007] [Admin] [172.16.0.30] [AUTH] - Logout
+[2026-08-20 10:00:00] [INFO] [SESSION_1003] [Ahmad] [192.168.1.30] [AUTH] - Successful login
+[2026-08-20 10:00:00] [INFO] [SESSION_1003] [Ahmad] [192.168.1.30] [QUERY] - SELECT account balance
+[2026-08-20 10:00:00] [INFO] [SESSION_1008] [Mona] [203.0.113.55] [AUTH] - Successful login
+[2026-08-20 10:15:00] [INFO] [SESSION_1008] [Mona] [203.0.113.55] [QUERY] - INSERT transaction record
+[2026-08-20 10:30:00] [INFO] [SESSION_1003] [Ahmad] [192.168.1.30] [AUTH] - Logout
+[2026-08-20 10:30:00] [INFO] [SESSION_1008] [Mona] [203.0.113.55] [AUTH] - Logout
+[2026-08-20 10:30:00] [INFO] [SESSION_1013] [Omar] [192.168.1.30] [QUERY] - UPDATE customer information
+[2026-08-20 10:45:00] [INFO] [SESSION_1018] [Sara] [203.0.113.55] [QUERY] - DELETE expired record
+[2026-08-20 11:00:00] [INFO] [SESSION_1004] [Lina] [10.0.0.15] [AUTH] - Successful login
+[2026-08-20 11:00:00] [WARNING] [SESSION_1005] [Hasan] [10.0.0.15] [QUERY] - Slow query execution time=12s
+[2026-08-20 11:03:00] [INFO] [SESSION_1004] [Lina] [10.0.0.15] [QUERY] - SELECT customer records
+[2026-08-20 11:05:00] [WARNING] [SESSION_1006] [Sara] [10.0.0.25] [QUERY] - Slow query execution time=15s
+[2026-08-20 11:10:00] [WARNING] [SESSION_1007] [Ahmad] [172.16.0.20] [QUERY] - Slow query execution time=8s
+[2026-08-20 11:15:00] [WARNING] [SESSION_1008] [Lina] [172.16.0.30] [QUERY] - Slow query execution time=20s
+[2026-08-20 11:18:00] [INFO] [SESSION_1009] [Hasan] [198.51.100.40] [QUERY] - DELETE old transaction
+[2026-08-20 11:20:00] [WARNING] [SESSION_1009] [Omar] [203.0.113.55] [QUERY] - Slow query execution time=30s
+[2026-08-20 11:25:00] [WARNING] [SESSION_1010] [Teller01] [198.51.100.40] [QUERY] - Slow query execution time=11s
+[2026-08-20 11:30:00] [INFO] [SESSION_1004] [Lina] [10.0.0.15] [AUTH] - Logout
+[2026-08-20 11:33:00] [INFO] [SESSION_1014] [Teller01] [10.0.0.15] [QUERY] - UPDATE account status
+[2026-08-20 11:48:00] [INFO] [SESSION_1019] [Ahmad] [198.51.100.40] [QUERY] - SELECT account balance
+[2026-08-20 12:00:00] [INFO] [SESSION_1005] [Omar] [10.0.0.25] [AUTH] - Successful login
+[2026-08-20 12:06:00] [INFO] [SESSION_1005] [Omar] [10.0.0.25] [QUERY] - UPDATE customer information
+[2026-08-20 12:21:00] [INFO] [SESSION_1010] [Sara] [198.51.100.41] [QUERY] - DELETE expired record
+[2026-08-20 12:30:00] [INFO] [SESSION_1005] [Omar] [10.0.0.25] [AUTH] - Logout
+[2026-08-20 12:36:00] [INFO] [SESSION_1015] [Admin] [10.0.0.25] [QUERY] - INSERT new customer
+[2026-08-20 12:51:00] [INFO] [SESSION_1020] [Lina] [198.51.100.41] [QUERY] - SELECT customer records
+[2026-08-20 13:00:00] [INFO] [SESSION_1002] [Sara] [192.168.1.20] [TRANSACTION] - Deposit amount=500
+[2026-08-20 13:04:00] [INFO] [SESSION_1003] [Ahmad] [192.168.1.30] [TRANSACTION] - Deposit amount=1200
+[2026-08-20 13:08:00] [INFO] [SESSION_1004] [Lina] [10.0.0.15] [TRANSACTION] - Deposit amount=250
+[2026-08-20 13:09:00] [INFO] [SESSION_1006] [Teller01] [172.16.0.20] [QUERY] - UPDATE account status
+[2026-08-20 13:12:00] [INFO] [SESSION_1005] [Omar] [10.0.0.25] [TRANSACTION] - Withdrawal amount=200
+[2026-08-20 13:16:00] [INFO] [SESSION_1006] [Teller01] [172.16.0.20] [TRANSACTION] - Withdrawal amount=450
+[2026-08-20 13:20:00] [INFO] [SESSION_1007] [Admin] [172.16.0.30] [TRANSACTION] - Withdrawal amount=1000
+[2026-08-20 13:24:00] [ERROR] [SESSION_1008] [Mona] [203.0.113.55] [TRANSACTION] - Declined transaction amount=900
+[2026-08-20 13:24:00] [INFO] [SESSION_1011] [Ahmad] [192.168.1.10] [QUERY] - SELECT account balance
+[2026-08-20 13:28:00] [ERROR] [SESSION_1009] [Hasan] [198.51.100.40] [TRANSACTION] - Declined transaction amount=1500
+[2026-08-20 13:32:00] [CRITICAL] [SESSION_1010] [Sara] [198.51.100.41] [TRANSACTION] - Rollback transaction
+[2026-08-20 13:36:00] [CRITICAL] [SESSION_1011] [Ahmad] [192.168.1.10] [TRANSACTION] - Rollback transaction
+[2026-08-20 13:39:00] [INFO] [SESSION_1016] [Mona] [172.16.0.20] [QUERY] - INSERT transaction record
+[2026-08-20 13:54:00] [INFO] [SESSION_1021] [Omar] [192.168.1.10] [QUERY] - UPDATE customer information
+[2026-08-20 14:00:00] [INFO] [SYSTEM] [system] [127.0.0.1] [BACKUP] - Backup completed successfully
+[2026-08-20 14:12:00] [INFO] [SESSION_1007] [Admin] [172.16.0.30] [QUERY] - INSERT new customer
+[2026-08-20 14:27:00] [INFO] [SESSION_1012] [Lina] [192.168.1.20] [QUERY] - SELECT customer records
+[2026-08-20 14:30:00] [CRITICAL] [SYSTEM] [system] [127.0.0.1] [BACKUP] - Backup failed
+[2026-08-20 14:42:00] [INFO] [SESSION_1017] [Hasan] [172.16.0.30] [QUERY] - DELETE old transaction
+[2026-08-20 14:57:00] [INFO] [SESSION_1022] [Teller01] [192.168.1.20] [QUERY] - UPDATE account status
+[2026-08-20 15:00:00] [INFO] [SYSTEM] [system] [127.0.0.1] [BACKUP] - Backup completed successfully
+[2026-08-20 15:30:00] [CRITICAL] [SYSTEM] [system] [127.0.0.1] [BACKUP] - Backup failed
+[2026-08-20 16:00:00] [INFO] [SESSION_1007] [Lina] [10.0.0.25] [AUTH] - Successful login
+[2026-08-20 16:44:00] [INFO] [SESSION_1009] [Lina] [172.16.0.30] [AUTH] - Successful login
+[2026-08-20 16:48:00] [INFO] [SESSION_1001] [Lina] [198.51.100.40] [AUTH] - Successful login
+[2026-08-20 16:52:00] [INFO] [SESSION_1023] [Lina] [192.168.1.10] [AUTH] - Successful login
+[2026-08-20 16:56:00] [INFO] [SESSION_1015] [Lina] [192.168.1.30] [AUTH] - Successful login
+[2026-08-20 17:03:00] [INFO] [SESSION_1016] [Omar] [10.0.0.15] [QUERY] - SELECT account balance
+[2026-08-20 17:07:00] [INFO] [SESSION_1008] [Omar] [172.16.0.20] [QUERY] - SELECT account balance
+[2026-08-20 17:51:00] [INFO] [SESSION_1010] [Omar] [203.0.113.55] [QUERY] - SELECT account balance
+[2026-08-20 17:55:00] [INFO] [SESSION_1002] [Omar] [198.51.100.41] [QUERY] - SELECT account balance
+[2026-08-20 17:59:00] [INFO] [SESSION_1024] [Omar] [192.168.1.20] [QUERY] - SELECT account balance
+[2026-08-20 18:02:00] [INFO] [SESSION_1003] [Teller01] [192.168.1.10] [TRANSACTION] - Deposit amount=100
+[2026-08-20 18:06:00] [INFO] [SESSION_1025] [Teller01] [192.168.1.30] [TRANSACTION] - Deposit amount=100
+[2026-08-20 18:10:00] [INFO] [SESSION_1017] [Teller01] [10.0.0.25] [TRANSACTION] - Deposit amount=100
+[2026-08-20 18:10:00] [INFO] [SESSION_1030] [Hasan] [192.168.1.10] [QUERY] - SELECT transaction history
+[2026-08-20 18:14:00] [INFO] [SESSION_1009] [Teller01] [172.16.0.30] [TRANSACTION] - Deposit amount=100
+[2026-08-20 18:20:00] [INFO] [SESSION_1030] [Hasan] [192.168.1.10] [TRANSACTION] - Withdrawal amount=300
+[2026-08-20 18:30:00] [INFO] [SESSION_1030] [Hasan] [192.168.1.10] [AUTH] - Logout
+[2026-08-20 18:58:00] [INFO] [SESSION_1011] [Teller01] [198.51.100.40] [TRANSACTION] - Deposit amount=100
+[2026-08-20 19:00:00] [INFO] [SESSION_1031] [Sara] [192.168.1.20] [AUTH] - Successful login
+[2026-08-20 19:09:00] [INFO] [SESSION_1004] [Admin] [192.168.1.20] [BACKUP] - Backup completed successfully
+[2026-08-20 19:10:00] [INFO] [SESSION_1031] [Sara] [192.168.1.20] [QUERY] - UPDATE customer information
+[2026-08-20 19:13:00] [INFO] [SESSION_1026] [Admin] [10.0.0.15] [BACKUP] - Backup completed successfully
+[2026-08-20 19:17:00] [INFO] [SESSION_1018] [Admin] [172.16.0.20] [BACKUP] - Backup completed successfully
+[2026-08-20 19:21:00] [INFO] [SESSION_1010] [Admin] [203.0.113.55] [BACKUP] - Backup completed successfully
+[2026-08-20 20:00:00] [INFO] [SESSION_1032] [Omar] [192.168.1.50] [AUTH] - Successful login
+[2026-08-20 20:16:00] [INFO] [SESSION_1005] [Mona] [192.168.1.30] [AUTH] - Successful login
+[2026-08-20 20:20:00] [INFO] [SESSION_1027] [Mona] [10.0.0.25] [AUTH] - Successful login
+[2026-08-20 20:24:00] [INFO] [SESSION_1019] [Mona] [172.16.0.30] [AUTH] - Successful login
+[2026-08-20 20:28:00] [INFO] [SESSION_1011] [Mona] [198.51.100.40] [AUTH] - Successful login
+[2026-08-20 21:23:00] [INFO] [SESSION_1006] [Hasan] [10.0.0.15] [QUERY] - SELECT account balance
+[2026-08-20 21:27:00] [INFO] [SESSION_1028] [Hasan] [172.16.0.20] [QUERY] - SELECT account balance
+[2026-08-20 21:31:00] [INFO] [SESSION_1020] [Hasan] [203.0.113.55] [QUERY] - SELECT account balance
+[2026-08-20 21:35:00] [INFO] [SESSION_1012] [Hasan] [198.51.100.41] [QUERY] - SELECT account balance
+[2026-08-20 22:30:00] [INFO] [SESSION_1007] [Sara] [10.0.0.25] [TRANSACTION] - Deposit amount=100
+[2026-08-20 22:34:00] [INFO] [SESSION_1029] [Sara] [172.16.0.30] [TRANSACTION] - Deposit amount=100
+[2026-08-20 22:38:00] [INFO] [SESSION_1021] [Sara] [198.51.100.40] [TRANSACTION] - Deposit amount=100
+[2026-08-20 22:42:00] [INFO] [SESSION_1013] [Sara] [192.168.1.10] [TRANSACTION] - Deposit amount=100
+[2026-08-20 23:37:00] [INFO] [SESSION_1008] [Ahmad] [172.16.0.20] [BACKUP] - Backup completed successfully
+[2026-08-20 23:41:00] [INFO] [SESSION_1030] [Ahmad] [203.0.113.55] [BACKUP] - Backup completed successfully
+[2026-08-20 23:45:00] [INFO] [SESSION_1022] [Ahmad] [198.51.100.41] [BACKUP] - Backup completed successfully
+[2026-08-20 23:49:00] [INFO] [SESSION_1014] [Ahmad] [192.168.1.20] [BACKUP] - Backup completed successfully
+[2026-08-20 09:00:00] [INFO] [SESSION: S002] [Sara] [192.168.1.20] [AUTH] - User logged in
+[2026-08-20 09:30:00] [INFO] [SESSION: S002] [Sara] [192.168.1.20] [AUTH] - User logged out
+[2026-08-20 10:00:00] [INFO] [SESSION: S003] [Ahmad] [192.168.1.30] [AUTH] - User logged in
+[2026-08-20 10:30:00] [INFO] [SESSION: S003] [Ahmad] [192.168.1.30] [AUTH] - User logged out
+[2026-08-20 11:00:00] [INFO] [SESSION: S004] [Lina] [10.0.0.15] [AUTH] - User logged in
+[2026-08-20 11:30:00] [INFO] [SESSION: S004] [Lina] [10.0.0.15] [AUTH] - User logged out
+[2026-08-20 12:00:00] [INFO] [SESSION: S005] [Omar] [10.0.0.25] [AUTH] - User logged in
+[2026-08-20 12:30:00] [INFO] [SESSION: S005] [Omar] [10.0.0.25] [AUTH] - User logged out
+[2026-08-20 16:00:00] [INFO] [SESSION: S006] [Mona] [203.0.113.55] [AUTH] - User logged in
+[2026-08-20 18:45:30] [INFO] [SESSION: S006] [Mona] [203.0.113.55] [AUTH] - User logged out
+[2026-08-20 20:00:00] [INFO] [SESSION: S007] [Admin] [172.16.0.30] [AUTH] - User logged in

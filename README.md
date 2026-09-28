@@ -92,7 +92,6 @@ python -m unittest test_analyzer.py
 - Shell: Bash (Linux, macOS, or Git Bash on Windows)
 - Python: Python 3.8+ (standard library only)
 
-## Authors
+## Author
 
 - Hasan Sattouf
-- *Partner name*
